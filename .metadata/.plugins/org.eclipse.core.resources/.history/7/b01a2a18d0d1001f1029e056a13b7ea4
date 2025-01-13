@@ -1,0 +1,26 @@
+package queue;
+
+public class Solution {
+	public static void main(String[] args) {
+		MyQueue mq = new MyQueue(5);
+		mq.enQueue(10);
+		System.out.println(mq);
+		System.out.println(mq.size());
+		
+		mq.enQueue(20);
+		System.out.println(mq);
+		System.out.println(mq.size());
+		
+		mq.enQueue(30);
+		System.out.println(mq);
+		System.out.println(mq.size());
+		mq.enQueue(40);
+		System.out.println(mq);
+		System.out.println(mq.size());
+		
+		mq.enQueue(50);
+		System.out.println(mq);
+		System.out.println(mq.size());
+	}
+
+}
