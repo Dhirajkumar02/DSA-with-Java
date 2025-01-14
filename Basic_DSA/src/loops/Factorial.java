@@ -7,7 +7,7 @@ public class Factorial {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter the number");
 		int n = sc.nextInt();
-		int fact = 1;
+		long fact = 1;
 		for (int i = 2; i <= n; i++) {
 			fact *= i;
 		}

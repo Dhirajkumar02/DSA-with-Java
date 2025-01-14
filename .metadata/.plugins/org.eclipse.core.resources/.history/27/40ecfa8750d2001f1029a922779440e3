@@ -1,0 +1,21 @@
+// 	WAP to print the factorial of first 'n' numbers
+package loops;
+import java.util.Scanner;
+
+public class FactorialOfFirst_N_Number {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n = sc.nextInt();
+		int fact = 1;
+		for (int i = 1; i <= n; i++) {
+			fact *= i;
+			System.out.println("Factorial of "+i+ " is "+fact);
+		}
+		//System.out.println(fact);
+		
+		
+		sc.close();
+	}
+
+}

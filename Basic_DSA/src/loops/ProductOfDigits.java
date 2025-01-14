@@ -12,11 +12,15 @@ public class ProductOfDigits {
 		num = Math.abs(num);
 		while (num != 0){
 			int digit = num%10; // To get last digit
-			product *= digit; // Add to Sum
+			
+			// print the product of non-zero digits in the given number
+			if(digit != 0) {
+				product *= digit; // Add to Sum
+			}
 			num /= 10; //Remove the last digit
 		}
 		System.out.println(product);
-		
+
 		sc.close();
 	}
 
