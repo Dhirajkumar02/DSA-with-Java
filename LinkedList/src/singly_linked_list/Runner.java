@@ -27,7 +27,22 @@ public class Runner {
 		System.out.println(sl.size());
 		
 		System.out.println("---------------");
-		sl.add(60);
+		sl.addFirst(60);
+		System.out.println(sl);
+		System.out.println(sl.size());
+		
+		System.out.println("------------");
+		System.out.println("Deleted:"+sl.deleteFirst());
+		System.out.println(sl );
+		System.out.println(sl.size());
+		
+		System.out.println("------------");
+		System.out.println("Deleted:"+sl.deleteLast());
+		System.out.println(sl );
+		System.out.println(sl.size());
+		
+		System.out.println("--------------------");
+		sl.add(100, 0);
 		System.out.println(sl);
 		System.out.println(sl.size());
 	}
