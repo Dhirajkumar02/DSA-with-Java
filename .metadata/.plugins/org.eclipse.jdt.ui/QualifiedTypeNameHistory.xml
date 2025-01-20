@@ -10,4 +10,6 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="singly_linked_list.MySinglyLinkedList"/>
+    <fullyQualifiedTypeName name="com.jsp.demo.Employee"/>
+    <fullyQualifiedTypeName name="com.jsp.demo.Sample"/>
 </qualifiedTypeNameHistroy>

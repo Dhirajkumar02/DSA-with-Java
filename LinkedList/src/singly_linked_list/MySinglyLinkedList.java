@@ -110,7 +110,7 @@ public class MySinglyLinkedList {
     }
 
     //To delete element to the specified index 
-    void delete(Object ele, int in) {
+    Object delete(Object ele, int in) {
     	if(in == 0) {
     		//return this.deleteFirst();
     		Object data = this.head.ele;
@@ -127,6 +127,7 @@ public class MySinglyLinkedList {
     		System.out.println("Index is out of range");
     		return null;
     	}
+		return temp;
     	
     }
     // Convert LinkedList to String
