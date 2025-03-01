@@ -13,7 +13,7 @@ public class Solid_Square {
 			}
 			System.out.println(); // for new line
 		}
-		sc.close();
+		sc.close(); 
 	}
 
 }

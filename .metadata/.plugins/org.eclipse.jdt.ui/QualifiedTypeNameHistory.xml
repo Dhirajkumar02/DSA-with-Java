@@ -12,4 +12,7 @@
     <fullyQualifiedTypeName name="singly_linked_list.MySinglyLinkedList"/>
     <fullyQualifiedTypeName name="com.jsp.demo.Employee"/>
     <fullyQualifiedTypeName name="com.jsp.demo.Sample"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
 </qualifiedTypeNameHistroy>

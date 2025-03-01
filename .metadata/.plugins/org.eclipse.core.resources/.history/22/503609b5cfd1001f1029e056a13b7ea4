@@ -1,7 +1,0 @@
-package queue;
-
-public class Solution {
-	MyQueue mq = new MyQueue(5);
-	
-
-}
